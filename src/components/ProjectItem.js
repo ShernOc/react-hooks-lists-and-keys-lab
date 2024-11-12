@@ -4,9 +4,9 @@ import ProjectList from "./ProjectList";
 function ProjectItem({ name, about, technologies }) {
 
 // rendering the span of each technology. 
- const technology= technologies.map((technologies)=>{
+ const technology= technologies.map((technology)=>{
     return(
-       <span key={technologies}>{technologies}</span> 
+       <span key={technology}>{technology}</span> 
     )
   })
 
